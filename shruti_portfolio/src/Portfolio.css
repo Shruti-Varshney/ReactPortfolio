@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.section {
+    padding: 20px;
+    margin: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact-buttons a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #0077b5;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.contact-buttons a:hover {
+    background-color: #005582;
+}
+
+iframe {
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 10px;
+    }
+
+    .contact-buttons a {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
